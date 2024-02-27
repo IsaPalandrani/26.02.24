@@ -6,6 +6,8 @@ var y = 2;
 // a linha a baixo é uma declaração de variável IF/ELSE onde quando x for igual a y o console log mostrará a mensagem "numeros conferem" se forem diferentes ele mostrará "números divergem"
 if (x == y) {
     console.log("Números conferem!");
+//quando a condição do if correspondente é falsa o else é executado
 } else {
     console.log("Números divergem!");
+//fechamento
 }
